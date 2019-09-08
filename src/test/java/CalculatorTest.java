@@ -8,7 +8,7 @@ public class CalculatorTest {
 
     @Test
     public void addZeroTest() {
-        assertEquals(c.add(1,0), 1, "1+0 should be 1");
+        assertEquals(c.add(1,333), 1, "1+0 should be 1");
     }
 
     @Test
